@@ -20,9 +20,6 @@ function minDate(dates) {
       return result;
 	
  }
-minDate();
-// minDate(["2023/03/01", "2023/03/02", "2023/03/03"]);
-// minDate(["2023/01/01", "2023/02/02", "2022/12/31"]);
 
 // Do not change the code
 
@@ -59,6 +56,5 @@ var dates = [
   "2023/03/30",
 ];
 
- 
 
 alert(minDate(dates));
