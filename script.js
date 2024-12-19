@@ -6,9 +6,9 @@ function minDate(dates) {
 	});
 
 
-	const minTimeStamp = Math.min(...dateObjects.map((dateObj)=>[
-		return dateObj.getTime();
-	]))
+	const minTimeStamp = Math.min(...dateObjects.map((dateObj)=>{
+		return dateObj.getTime(); 
+}))
 
 	const minDateObj = new Date(minTimeStamp);
 
