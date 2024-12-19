@@ -16,7 +16,7 @@ function minDate(dates) {
 	const month = String(minDateObj.getMonth()+1).padStart(2, '0');
 	const date = String(minDateObj.getDate()).padStart(2, '0');
 
-	const result = `${year}/${month}/${day}`;
+	const result = `${year}/${month}/${date}`;
       return result;
 	
  }
